@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Billie Eilish Fan Page</title>
+
+    <!-- 🔗 LINK PARA O CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Billie Eilish Fan Page</h1>
+        <nav aria-label="Menu principal">
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="cadastro.html">Cadastrar Fã</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <article>
+                <h2>Sobre Billie Eilish</h2>
+                <p>Billie Eilish é uma cantora e compositora americana conhecida por seu estilo único e músicas cheias de emoção.</p>
+            </article>
+        </section>
+
+        <section>
+            <h2>Fãs Cadastrados</h2>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Nome</th>
+                        <th>Email</th>
+                    </tr>
+                </thead>
+                <tbody id="tabelaUsuarios">
+                    <tr>
+                        <td>Exemplo Fã</td>
+                        <td>exemplo@email.com</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section>
+            <h2>Galeria</h2>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Billie_Eilish_O2_Arena%2C_London_%28cropped%29.jpg/800px-Billie_Eilish_O2_Arena%2C_London_%28cropped%29.jpg" alt="Billie Eilish em show" width="300">
+        </section>
+
+        <section>
+            <h2>Interatividade</h2>
+            <button id="btnSaberMais">Saber mais</button>
+            <p id="textoExtra" style="display: none;">
+                Billie Eilish nasceu em 18 de dezembro de 2001 em Los Angeles, Califórnia. Ficou famosa mundialmente com "Ocean Eyes" e ganhou vários Grammys.
+            </p>
+
+            <button id="btnTela">Expandir Tela</button>
+            <button id="btnDark">Modo Escuro</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 - Billie Eilish Fan Page</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
